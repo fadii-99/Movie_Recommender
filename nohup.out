@@ -1,0 +1,79 @@
+INFO:     Will watch for changes in these directories: ['/home/fawad/Downloads/final_recommender']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [29254] using WatchFiles
+INFO:     Started server process [29257]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+[DEBUG] Raw columns: 127
+[DEBUG] Clean columns: 108
+[DEBUG] Rating columns: 108
+[DEBUG] Final dataset - Users: 39, Movies: 108, Ratings: 2695
+[startup] Using filled dataset: data/filled_dataset.xlsx
+[startup] Loaded Excel: users=39 movies=108 wide=(39, 108)
+[DEBUG] Using original dataset for recommendations: data/client_ratings.xlsx
+[DEBUG] Loading dataset from: data/client_ratings.xlsx
+[DEBUG] Raw columns: 127
+[DEBUG] Clean columns: 108
+[DEBUG] Rating columns: 108
+[DEBUG] Final dataset - Users: 39, Movies: 108, Ratings: 2695
+[DEBUG] Raw columns: 127
+[DEBUG] Clean columns: 108
+[DEBUG] Rating columns: 108
+[DEBUG] Final dataset - Users: 39, Movies: 108, Ratings: 2695
+[DEBUG] Found 10 recommendations for user 1
+INFO:     127.0.0.1:34738 - "GET /recommendations/1?top_n=10 HTTP/1.1" 200 OK
+[DEBUG] Using original dataset for recommendations: data/client_ratings.xlsx
+[DEBUG] Loading dataset from: data/client_ratings.xlsx
+[DEBUG] Raw columns: 127
+[DEBUG] Clean columns: 108
+[DEBUG] Rating columns: 108
+[DEBUG] Final dataset - Users: 39, Movies: 108, Ratings: 2695
+[DEBUG] Raw columns: 127
+[DEBUG] Clean columns: 108
+[DEBUG] Rating columns: 108
+[DEBUG] Final dataset - Users: 39, Movies: 108, Ratings: 2695
+[DEBUG] Found 5 recommendations for user 1
+INFO:     127.0.0.1:43740 - "GET /recommendations/1?top_n=5 HTTP/1.1" 200 OK
+[DEBUG] Using original dataset for recommendations: data/client_ratings.xlsx
+[DEBUG] Loading dataset from: data/client_ratings.xlsx
+[DEBUG] Raw columns: 127
+[DEBUG] Clean columns: 108
+[DEBUG] Rating columns: 108
+[DEBUG] Final dataset - Users: 39, Movies: 108, Ratings: 2695
+[DEBUG] Raw columns: 127
+[DEBUG] Clean columns: 108
+[DEBUG] Rating columns: 108
+[DEBUG] Final dataset - Users: 39, Movies: 108, Ratings: 2695
+[DEBUG] Found 20 recommendations for user 17
+INFO:     127.0.0.1:43748 - "GET /recommendations/17?top_n=20 HTTP/1.1" 200 OK
+[DEBUG] Using original dataset for recommendations: data/client_ratings.xlsx
+[DEBUG] Loading dataset from: data/client_ratings.xlsx
+[DEBUG] Raw columns: 127
+[DEBUG] Clean columns: 108
+[DEBUG] Rating columns: 108
+[DEBUG] Final dataset - Users: 39, Movies: 108, Ratings: 2695
+[DEBUG] Raw columns: 127
+[DEBUG] Clean columns: 108
+[DEBUG] Rating columns: 108
+[DEBUG] Final dataset - Users: 39, Movies: 108, Ratings: 2695
+[DEBUG] Found 5 recommendations for user 5
+INFO:     127.0.0.1:34448 - "GET /recommendations/5?top_n=5 HTTP/1.1" 200 OK
+[DEBUG] Using original dataset for recommendations: data/client_ratings.xlsx
+[DEBUG] Loading dataset from: data/client_ratings.xlsx
+[DEBUG] Raw columns: 127
+[DEBUG] Clean columns: 108
+[DEBUG] Rating columns: 108
+[DEBUG] Final dataset - Users: 39, Movies: 108, Ratings: 2695
+[DEBUG] Raw columns: 127
+[DEBUG] Clean columns: 108
+[DEBUG] Rating columns: 108
+[DEBUG] Final dataset - Users: 39, Movies: 108, Ratings: 2695
+[DEBUG] Found 5 recommendations for user 17
+INFO:     127.0.0.1:34460 - "GET /recommendations/17?top_n=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34864 - "POST /predict-rating HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60856 - "POST /predict-rating HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [29257]
+INFO:     Stopping reloader process [29254]

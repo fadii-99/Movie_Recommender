@@ -1,0 +1,1 @@
+{"excel_path": "data/client_ratings.xlsx", "n_users": 39, "n_items": 108, "model": "xgboost", "n_components": 20}
